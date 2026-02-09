@@ -1,0 +1,22 @@
+name: virex_payment
+description: Official Flutter SDK for VirexPayment. Integrate crypto payments into your Flutter apps with a native, secure, and customizable modal.
+version: 0.0.1
+homepage: https://github.com/VirexPayment/virex_flutter_sdk
+repository: https://github.com/VirexPayment/virex_flutter_sdk
+issue_tracker: https://github.com/VirexPayment/virex_flutter_sdk/issues
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  qr_flutter: ^4.1.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:

@@ -1,0 +1,31 @@
+# .gitignore for Flutter / Dart
+# Documentation: https://dart.dev/guides/libraries/private-files
+
+# Binaries
+build/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# Dependencies
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+
+# Guides
+GITHUB_GUIDE.md
+
+# Logs
+*.log
+
+# Screenshots/Temporary files (Keep the screenshots folder but ignore extra temp files)
+# screenshots/*.png (not ignoring our preview)
+
+# OS Files
+.DS_Store
+Thumbs.db
